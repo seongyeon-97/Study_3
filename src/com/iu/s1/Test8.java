@@ -49,15 +49,15 @@ public class Test8 {
 			System.out.println("안타깝지만 불합격입니다....");
 		}
 */		
-		if(avg>=60) {
-			if(kor>40 && eng>40 && math>40) {
-				System.out.println("합격");
-			}else {
-				System.out.println("불합격");
-			}
-		}else {
-			System.out.println("불합격");
-		}
+//		if(avg>=60) {
+//			if(kor>40 && eng>40 && math>40) {
+//				System.out.println("합격");
+//			}else {
+//				System.out.println("불합격");
+//			}
+//		}else {
+//			System.out.println("불합격");
+//		}
 		
 		
 		System.out.println("--------------");
