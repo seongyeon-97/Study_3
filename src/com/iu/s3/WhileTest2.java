@@ -14,9 +14,10 @@ public class WhileTest2 {
 		boolean check = true;
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("1. 로그인 , 2. 종료");
+		
 		
 		while(check) {
+			System.out.println("1. 로그인 , 2. 종료");
 			int select = sc.nextInt();
 			if(select==1) {
 				System.out.println("ID : ");
@@ -28,9 +29,7 @@ public class WhileTest2 {
 						System.out.println("로그인 되었습니다.");
 				}else {
 					System.out.println("ID와 PW를 다시 한번 확인해주세요.");
-					System.out.println("1. 로그인 , 2. 종료");
-				}
-				
+				}				
 			}else {
 				check=!check;
 				System.out.println("-----종료-----");
