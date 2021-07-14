@@ -12,9 +12,8 @@ public class WhileTest2 {
 		int mid = 0;
 		int mpw = 0;
 		boolean check = true;
+		
 		Scanner sc = new Scanner(System.in);
-		
-		
 		
 		while(check) {
 			System.out.println("1. 로그인 , 2. 종료");
@@ -27,18 +26,16 @@ public class WhileTest2 {
 					if(id==mid && pw==mpw) {
 						check=!check;
 						System.out.println("로그인 되었습니다.");
-				}else {
-					System.out.println("ID와 PW를 다시 한번 확인해주세요.");
-				}				
+					}else {
+						System.out.println("ID와 PW를 다시 한번 확인해주세요.");
+					}				
 			}else {
 				check=!check;
 				System.out.println("-----종료-----");
 			}
 		}
-		
-		
+				
 		System.out.println("----While Test2 finish----");
 		
-
 	}
 }
