@@ -49,6 +49,7 @@ public class WhileTest2 {
 		int hunt=0;
 		
 		if(id==mid && pw==mpw) {
+			
 			System.out.println("스카니아 1서버 접속 완료");
 			
 			for(level=1; level<16; level++) {
@@ -70,6 +71,7 @@ public class WhileTest2 {
 					System.out.println("만랩 달성하셨습니다!!!! 축하드립니다!!!");
 					System.out.println("최종 Level : "+level);
 					System.out.println("최종 Gold : "+gold);
+					System.out.println("=========Ending=========");
 				}
 			}
 		}
