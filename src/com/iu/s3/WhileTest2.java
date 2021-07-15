@@ -23,9 +23,9 @@ public class WhileTest2 {
 				mid = sc.nextInt();
 				System.out.println("PW : ");
 				mpw = sc.nextInt();
-					if(id==mid && pw==mpw) {
-						check=!check;
+					if(id==mid && pw==mpw) {						
 						System.out.println("로그인 되었습니다.");
+						break;
 					}else {
 						System.out.println("ID와 PW를 다시 한번 확인해주세요.");
 					}				
@@ -48,7 +48,7 @@ public class WhileTest2 {
 		int gold=0;
 		int hunt=0;
 		
-		if(id==mid && pw==mpw) {
+		if(check) {
 			
 			System.out.println("스카니아 1서버 접속 완료");
 			
