@@ -56,18 +56,20 @@ public class Array_8 {
 						break;
 					}
 				}
+				
 				if(check) {
-				ids2[ids.length]=mids2;
-				ids=ids2;
+					ids2[ids.length]=mids2;
+					ids=ids2;
 				
-				for(int i=0; i<pws.length; i++) {
-					pws2[i]=pws[i];
-				}
+					for(int i=0; i<pws.length; i++) {
+						pws2[i]=pws[i];
+					}
 				
-				pws2[pws.length]=mpws2;
-				pws=pws2;
+					pws2[pws.length]=mpws2;
+					pws=pws2;
 				
-				System.out.println("회원가입이 완료되었습니다.");
+					System.out.println("회원가입이 완료되었습니다.");
+					
 				}
 				
 				break;				
